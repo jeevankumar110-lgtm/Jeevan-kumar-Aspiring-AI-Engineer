@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <rect width="600" height="400" fill="#0A0A0A"/>
+  <!-- Grid Lines -->
+  <line x1="0" y1="80" x2="600" y2="80" stroke="#222" stroke-width="1"/>
+  <line x1="0" y1="200" x2="600" y2="200" stroke="#222" stroke-width="1"/>
+  <line x1="0" y1="320" x2="600" y2="320" stroke="#222" stroke-width="1"/>
+  <line x1="300" y1="0" x2="300" y2="400" stroke="#222" stroke-width="1"/>
+
+  <text x="40" y="50" font-family="'Space Grotesk', sans-serif" font-size="12" fill="#888" letter-spacing="3">STC // LEADERSHIP &amp; MEDIA</text>
+  <text x="440" y="50" font-family="monospace" font-size="11" fill="#666">[ IDEATHON ARCHIVE ]</text>
+
+  <!-- Editorial Book / Portfolio Mockup representation -->
+  <g transform="translate(140, 80)">
+    <!-- Spine / Shadow -->
+    <rect x="0" y="20" width="40" height="250" rx="3" fill="#181818" stroke="#333" stroke-width="1"/>
+    <text x="20" y="150" font-family="'Space Grotesk', sans-serif" font-size="11" fill="#888" transform="rotate(-90 20 150)" letter-spacing="3">HACKATHONS &amp; INNOVATION</text>
+
+    <!-- Main Front Cover -->
+    <rect x="50" y="20" width="180" height="250" rx="4" fill="#121212" stroke="#383838" stroke-width="1.5"/>
+    <rect x="65" y="35" width="150" height="130" fill="#1C1C1C" stroke="#2C2C2C" stroke-width="1"/>
+    
+    <!-- Video / Lens Graphic -->
+    <circle cx="140" cy="100" r="32" fill="none" stroke="#666" stroke-width="2"/>
+    <circle cx="140" cy="100" r="16" fill="#252525" stroke="#999" stroke-width="1.5"/>
+    <circle cx="140" cy="100" r="6" fill="#FFF"/>
+    
+    <!-- Title on Cover -->
+    <text x="65" y="195" font-family="'Space Grotesk', sans-serif" font-size="14" font-weight="700" fill="#F0F0EA">STORYTELLING</text>
+    <text x="65" y="212" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#888">THROUGH DIGITAL MEDIA</text>
+    <text x="65" y="245" font-family="monospace" font-size="9" fill="#555">PRESIDENT • NIAT • 2026</text>
+
+    <!-- Ad/Video Accent Card -->
+    <rect x="245" y="60" width="75" height="210" rx="3" fill="#1A1A1A" stroke="#333" stroke-width="1"/>
+    <text x="282" y="170" font-family="'Space Grotesk', sans-serif" font-size="9" fill="#999" transform="rotate(-90 282 170)" letter-spacing="2">INTERIOR REELS // 2026</text>
+  </g>
+</svg>
+

@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="tt-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#141517"/>
+      <stop offset="100%" stop-color="#0E0F10"/>
+    </linearGradient>
+    <linearGradient id="card-grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1E2023"/>
+      <stop offset="100%" stop-color="#17181A"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect width="800" height="500" fill="url(#tt-bg)"/>
+
+  <!-- Subtle Blueprint Grid -->
+  <g stroke="rgba(255,255,255,0.04)" stroke-width="1">
+    <line x1="0" y1="60" x2="800" y2="60"/>
+    <line x1="0" y1="120" x2="800" y2="120"/>
+    <line x1="0" y1="440" x2="800" y2="440"/>
+    <line x1="280" y1="60" x2="280" y2="440"/>
+  </g>
+
+  <!-- Top Metadata Bar -->
+  <text x="35" y="40" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600" fill="#8AB4F8" letter-spacing="1.5">PROJECT 01 // PRODUCTIVITY ARCHITECTURE</text>
+  <text x="560" y="40" font-family="'JetBrains Mono', monospace" font-size="10" fill="#9AA0A6">[ HTML5 • CSS3 • JS • LOCAL STORAGE ]</text>
+
+  <!-- Main Left Card: Interactive Calendar Panel -->
+  <g transform="translate(35, 75)">
+    <rect width="225" height="345" rx="6" fill="url(#card-grad)" stroke="#2E3136" stroke-width="1"/>
+    
+    <!-- Calendar Header -->
+    <rect x="0" y="0" width="225" height="42" rx="6" fill="#24272C"/>
+    <text x="16" y="26" font-family="'Space Grotesk', sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">November 2026</text>
+    <text x="175" y="26" font-family="'JetBrains Mono', monospace" font-size="11" fill="#8AB4F8">⟨  ⟩</text>
+
+    <!-- Days of week -->
+    <g font-family="'JetBrains Mono', monospace" font-size="9" fill="#71767D" text-anchor="middle">
+      <text x="24" y="60">S</text>
+      <text x="54" y="60">M</text>
+      <text x="84" y="60">T</text>
+      <text x="114" y="60">W</text>
+      <text x="144" y="60">T</text>
+      <text x="174" y="60">F</text>
+      <text x="204" y="60">S</text>
+    </g>
+
+    <!-- Calendar Day Numbers -->
+    <g font-family="'Space Grotesk', sans-serif" font-size="11" text-anchor="middle" fill="#A0A5AD">
+      <text x="24" y="85" fill="#4B4E54">1</text>
+      <text x="54" y="85">2</text>
+      <text x="84" y="85">3</text>
+      <text x="114" y="85">4</text>
+      <text x="144" y="85">5</text>
+      <text x="174" y="85">6</text>
+      <text x="204" y="85">7</text>
+
+      <text x="24" y="115" fill="#4B4E54">8</text>
+      <text x="54" y="115">9</text>
+      <text x="84" y="115">10</text>
+      <text x="114" y="115">11</text>
+      
+      <!-- Selected Active Date (12) -->
+      <circle cx="144" cy="111" r="14" fill="#8AB4F8"/>
+      <text x="144" y="115" fill="#131314" font-weight="700">12</text>
+
+      <text x="174" y="115">13</text>
+      <text x="204" y="115">14</text>
+
+      <text x="24" y="145" fill="#4B4E54">15</text>
+      <text x="54" y="145">16</text>
+      <text x="84" y="145">17</text>
+      <text x="114" y="145">18</text>
+      <text x="144" y="145">19</text>
+      <text x="174" y="145">20</text>
+      <text x="204" y="145">21</text>
+
+      <text x="24" y="175" fill="#4B4E54">22</text>
+      <text x="54" y="175">23</text>
+      <text x="84" y="175">24</text>
+      <text x="114" y="175">25</text>
+      <text x="144" y="175">26</text>
+      <text x="174" y="175">27</text>
+      <text x="204" y="175">28</text>
+
+      <text x="24" y="205" fill="#4B4E54">29</text>
+      <text x="54" y="205">30</text>
+    </g>
+
+    <!-- Mini Status inside Calendar -->
+    <rect x="14" y="235" width="197" height="92" rx="4" fill="#17181A" stroke="#25272B"/>
+    <text x="26" y="258" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="600" fill="#8AB4F8">SELECTED DATE: 2026-11-12</text>
+    <text x="26" y="278" font-family="'Space Grotesk', sans-serif" font-size="11" fill="#E3E3E3">3 Scheduled Tasks</text>
+    <text x="26" y="296" font-family="'JetBrains Mono', monospace" font-size="9" fill="#81C995">● 2 Completed • 1 Pending</text>
+    <text x="26" y="314" font-family="'JetBrains Mono', monospace" font-size="9" fill="#71767D">Local Storage: Synced</text>
+  </g>
+
+  <!-- Main Right Panel: Daily Schedule 06:00 to 22:00 -->
+  <g transform="translate(280, 75)">
+    <rect width="485" height="345" rx="6" fill="url(#card-grad)" stroke="#2E3136" stroke-width="1"/>
+
+    <!-- Daily Planner Header -->
+    <rect x="0" y="0" width="485" height="42" rx="6" fill="#24272C"/>
+    <text x="20" y="26" font-family="'Space Grotesk', sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">Hourly Daily Planner (06:00 – 22:00)</text>
+    <circle cx="455" cy="21" r="4" fill="#34A853"/>
+    <text x="390" y="25" font-family="'JetBrains Mono', monospace" font-size="9" fill="#34A853">NOW: 10:25 AM</text>
+
+    <!-- Hour Row 08:00 (Completed) -->
+    <g transform="translate(20, 56)">
+      <text x="0" y="22" font-family="'JetBrains Mono', monospace" font-size="10" fill="#71767D">08:00 AM</text>
+      <rect x="65" y="0" width="380" height="36" rx="4" fill="#1A1C1F" stroke="#282A2E"/>
+      <circle cx="85" cy="18" r="7" fill="#81C995"/>
+      <path d="M82 18 L84 20 L88 16" stroke="#131314" stroke-width="1.5" fill="none"/>
+      <text x="102" y="22" font-family="'Space Grotesk', sans-serif" font-size="12" fill="#71767D" text-decoration="line-through">CS Mathematics &amp; Algorithms Study</text>
+      <rect x="360" y="8" width="65" height="20" rx="3" fill="#222428"/>
+      <text x="372" y="21" font-family="'JetBrains Mono', monospace" font-size="9" fill="#81C995">DONE</text>
+    </g>
+
+    <!-- Hour Row 10:00 (Current Hour - Active Highlight) -->
+    <g transform="translate(20, 102)">
+      <text x="0" y="22" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" fill="#8AB4F8">10:00 AM</text>
+      <rect x="65" y="0" width="380" height="44" rx="4" fill="#1C2333" stroke="#8AB4F8" stroke-width="1.5"/>
+      <circle cx="85" cy="22" r="7" fill="#8AB4F8"/>
+      <text x="102" y="25" font-family="'Space Grotesk', sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">Daily Task Tracker Code Architecture</text>
+      <rect x="360" y="11" width="70" height="22" rx="3" fill="#8AB4F8"/>
+      <text x="372" y="26" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="700" fill="#131314">ACTIVE</text>
+    </g>
+
+    <!-- Hour Row 14:00 (Scheduled) -->
+    <g transform="translate(20, 156)">
+      <text x="0" y="22" font-family="'JetBrains Mono', monospace" font-size="10" fill="#71767D">02:00 PM</text>
+      <rect x="65" y="0" width="380" height="36" rx="4" fill="#1A1C1F" stroke="#282A2E"/>
+      <circle cx="85" cy="18" r="7" fill="none" stroke="#71767D" stroke-width="1.5"/>
+      <text x="102" y="22" font-family="'Space Grotesk', sans-serif" font-size="12" fill="#E3E3E3">Python Logic &amp; CLI Experiments</text>
+      <rect x="360" y="8" width="70" height="20" rx="3" fill="#222428"/>
+      <text x="374" y="21" font-family="'JetBrains Mono', monospace" font-size="9" fill="#FDD663">PLANNED</text>
+    </g>
+
+    <!-- Hour Row 18:00 (Completed) -->
+    <g transform="translate(20, 202)">
+      <text x="0" y="22" font-family="'JetBrains Mono', monospace" font-size="10" fill="#71767D">06:00 PM</text>
+      <rect x="65" y="0" width="380" height="36" rx="4" fill="#1A1C1F" stroke="#282A2E"/>
+      <circle cx="85" cy="18" r="7" fill="#81C995"/>
+      <path d="M82 18 L84 20 L88 16" stroke="#131314" stroke-width="1.5" fill="none"/>
+      <text x="102" y="22" font-family="'Space Grotesk', sans-serif" font-size="12" fill="#71767D" text-decoration="line-through">Collegiate Hackathon Brainstorming</text>
+      <rect x="360" y="8" width="65" height="20" rx="3" fill="#222428"/>
+      <text x="372" y="21" font-family="'JetBrains Mono', monospace" font-size="9" fill="#81C995">DONE</text>
+    </g>
+
+    <!-- Bottom Action & Persistence Status -->
+    <g transform="translate(85, 258)">
+      <rect width="360" height="65" rx="4" fill="#15171A" stroke="#282A2E"/>
+      <text x="16" y="24" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="600" fill="#9AA0A6">QUICK TASK DISPATCH</text>
+      <rect x="16" y="32" width="220" height="24" rx="3" fill="#1E2023" stroke="#333538"/>
+      <text x="24" y="47" font-family="'Space Grotesk', sans-serif" font-size="10" fill="#6B7280">Type new task description...</text>
+      <rect x="244" y="32" width="95" height="24" rx="3" fill="#8AB4F8"/>
+      <text x="260" y="48" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" fill="#131314">+ ADD TASK</text>
+    </g>
+  </g>
+
+  <!-- Bottom Terminal Tag -->
+  <text x="35" y="468" font-family="'JetBrains Mono', monospace" font-size="10" fill="#5F6368">&gt; SYSTEM: Daily Task Tracker &amp; Calendar • Client-Authoritative LocalStorage Engine Active</text>
+</svg>

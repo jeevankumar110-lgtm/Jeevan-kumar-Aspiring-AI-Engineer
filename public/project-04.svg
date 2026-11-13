@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <rect width="600" height="400" fill="#0A0A0A"/>
+  <!-- Swiss Grid -->
+  <line x1="0" y1="100" x2="600" y2="100" stroke="#222" stroke-width="1"/>
+  <line x1="0" y1="200" x2="600" y2="200" stroke="#222" stroke-width="1"/>
+  <line x1="0" y1="300" x2="600" y2="300" stroke="#222" stroke-width="1"/>
+  <line x1="300" y1="0" x2="300" y2="400" stroke="#222" stroke-width="1"/>
+
+  <text x="40" y="60" font-family="'Space Grotesk', sans-serif" font-size="12" fill="#888" letter-spacing="3">JK // 04 — GRADE EVALUATOR</text>
+  <text x="480" y="60" font-family="monospace" font-size="11" fill="#666">[ GPA / SCORING ]</text>
+
+  <!-- Grade card UI -->
+  <rect x="70" y="110" width="460" height="230" rx="4" fill="#141414" stroke="#2E2E2E" stroke-width="1"/>
+
+  <!-- Left Score summary -->
+  <rect x="95" y="130" width="140" height="190" rx="3" fill="#181818" stroke="#2A2A2A" stroke-width="1"/>
+  <text x="165" y="165" font-family="'Space Grotesk', sans-serif" font-size="11" fill="#888" text-anchor="middle">OVERALL GRADE</text>
+  <text x="165" y="230" font-family="'Space Grotesk', sans-serif" font-size="52" font-weight="700" fill="#F0F0EA" text-anchor="middle">A+</text>
+  <text x="165" y="260" font-family="monospace" font-size="12" fill="#888" text-anchor="middle">Score: 94.8%</text>
+  <text x="165" y="285" font-family="monospace" font-size="11" fill="#55CC88" text-anchor="middle">EXEMPLARY</text>
+
+  <!-- Right Subject Breakdown -->
+  <text x="260" y="150" font-family="'Space Grotesk', sans-serif" font-size="12" fill="#AAA">COURSE PERFORMANCE</text>
+
+  <!-- Subject 1 -->
+  <text x="260" y="180" font-family="monospace" font-size="11" fill="#DDD">Computer Programming</text>
+  <text x="490" y="180" font-family="monospace" font-size="11" fill="#DDD" text-anchor="end">98%</text>
+  <rect x="260" y="190" width="230" height="4" rx="2" fill="#262626"/>
+  <rect x="260" y="190" width="225" height="4" rx="2" fill="#E0E0DB"/>
+
+  <!-- Subject 2 -->
+  <text x="260" y="220" font-family="monospace" font-size="11" fill="#DDD">Applied Mathematics</text>
+  <text x="490" y="220" font-family="monospace" font-size="11" fill="#DDD" text-anchor="end">92%</text>
+  <rect x="260" y="230" width="230" height="4" rx="2" fill="#262626"/>
+  <rect x="260" y="230" width="210" height="4" rx="2" fill="#B0B0AA"/>
+
+  <!-- Subject 3 -->
+  <text x="260" y="260" font-family="monospace" font-size="11" fill="#DDD">Engineering Physics</text>
+  <text x="490" y="260" font-family="monospace" font-size="11" fill="#DDD" text-anchor="end">94%</text>
+  <rect x="260" y="270" width="230" height="4" rx="2" fill="#262626"/>
+  <rect x="260" y="270" width="216" height="4" rx="2" fill="#D0D0CA"/>
+</svg>
+
